@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd # type: ignore
 import os
 from io import BytesIO
-st.set_page_config( page_title == "Data Sweeper", layout='wide')
+st.set_page_config( page_title = "Data Sweeper", layout='wide')
 
 #custom css
 st.markdown(
